@@ -1,6 +1,6 @@
 # @denali-design/icons
 
-:construction: (WIP) Ember.JS component library for the Denali CSS Framework
+:construction: (WIP) Denali Icons library consisting of 1000+ icons packaged into a font, SVG, sprite, and JS library.
 
 ## Contributing
 
