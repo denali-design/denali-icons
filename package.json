@@ -1,6 +1,6 @@
 {
   "name": "denali-icons",
-  "description": "",
+  "description": "Denali Icons library consisting of 1000+ icons packaged into a font, SVG, sprite, and JS library.",
   "version": "0.0.0-developmnet",
   "scripts": {
     "build": "npm-run-all --sequential json sprite font",
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.vzbuilders.com/denali-system-language/denali-icons.git"
+    "url": "https://github.com/denali-design/denali-icons.git"
   },
   "keywords": [
     "icons",
     "sprite",
     "font"
   ],
-  "author": "Chas Turansky <cturansky@verizonmedia.com> (http://turansky.net/)",
+  "author": "Chas Turansky <chas@turansky.net> (http://turansky.net/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://git.vzbuilders.com/denali-system-language/denali-icons"
+    "url": "https://github.com/denali-design/denali-icons/issues"
   },
-  "homepage": "https://git.vzbuilders.com/denali-system-language/",
+  "homepage": "https://denali.design/",
   "devDependencies": {
     "fantasticon": "^1.1.1",
     "iconit": "^1.0.0",
