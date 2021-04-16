@@ -3,11 +3,11 @@
   "description": "Denali Icons library consisting of 1000+ icons packaged into a font, SVG, sprite, and JS library.",
   "version": "0.0.0-developmnet",
   "scripts": {
-    "build": "npm-run-all --sequential json sprite font",
+    "build": "npm-run-all --sequential json sprite font svg",
     "font": "rm -rf dist/font && mkdir dist/font && fantasticon -o dist/font -n denali-icons-font -t woff2 -g css --selector .d-icon -p d svg",
-    "json": "iconit --name=denali-icons --json",
-    "sprite": "iconit --name=denali-icons-sprite --sprite",
-    "icons": "rm -rf dist/icons && mkdir dist/icons && cp -R svg dist"
+    "json": "iconit -n denali-icons --json",
+    "sprite": "iconit -n denali-icons --sprite",
+    "svg": "rm -rf dist/svg && mkdir dist/svg && cp -R svg dist"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
   "keywords": [
     "icons",
     "sprite",
-    "font"
+    "font",
+    "svg",
+    "denali"
   ],
   "author": "Chas Turansky <chas@turansky.net> (http://turansky.net/)",
   "license": "MIT",
@@ -26,7 +28,9 @@
   "homepage": "https://denali.design/",
   "devDependencies": {
     "fantasticon": "^1.1.1",
-    "iconit": "^1.0.0",
     "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "iconit": "^1.0.1"
   }
 }
