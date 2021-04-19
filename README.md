@@ -2,6 +2,8 @@
 
 :construction: (WIP) Denali Icons library consisting of 1000+ icons packaged into a font, SVG, sprite, and JS library.
 
+## Usage
+
 ## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
