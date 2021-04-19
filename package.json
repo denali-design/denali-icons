@@ -1,5 +1,5 @@
 {
-  "name": "@denali-design/denali-icons",
+  "name": "@denali-design/icons",
   "description": "Denali Icons library consisting of 1000+ icons packaged into a font, SVG, sprite, and JS library.",
   "version": "0.0.0-developmnet",
   "scripts": {
