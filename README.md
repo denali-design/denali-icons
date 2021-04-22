@@ -1,6 +1,9 @@
 # @denali-design/icons
 
-:construction: (WIP)
+[![npm](https://img.shields.io/npm/v/@denali-design/icons?color=red)](https://www.npmjs.com/package/@denali-design/icons)
+[![Build Status][status-image]][status-url]
+[![slack](https://img.shields.io/badge/slack-Denali-3570f4.svg)](https://denali-design.slack.com/app_redirect?channel=general)
+[![GitHub](https://img.shields.io/github/license/denali-design/denali-icons)](https://github.com/denali-design/denali-icons/blob/master/LICENSE.md)
 
 ## What is Denali Icons?
 
@@ -49,7 +52,7 @@ Link to the CSS font file in the head of your page or app:
 ```
 or CDN
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/denali-icons/dist/denali-icons-font.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@denali-design/icons/dist/font/denali-icons-font.css">
 ```
 
 Include an icon in your app or page with the following markup:
@@ -96,10 +99,6 @@ or link to the icon through your preferred installation method.
 ```html
 <img class="d-icon" src="/path/to/accessibility.svg" />
 ```
-or CDN
-```html
-<img class="d-icon" src="https://cdn.jsdelivr.net/npm/denali-icons/dist/svg/accessibility.svg" />
-```
 
 ---
 
@@ -107,19 +106,13 @@ or CDN
 
 A SVG sprite is an svg file that contains multiple images. This allows you to include one file, but use many images. Perfect for icon libraries.
 
-> **NOTE:** An alternative installation method is to copy [denali-icons-sprite.svg]() into your project.
+> **NOTE:** An alternative installation method is to copy `denali-icons.svg` into your project.
 
 Include an icon in your app or page with the following markup:
 
 ```html
 <svg class="d-icon">
-  <use xlink:href="path/to/denali-icons-sprite.svg#denali"></use>
-</svg>
-```
-or CDN
-```html
-<svg class="d-icon">
-  <use xlink:href="https://cdn.jsdelivr.net/npm/denali-icons/dist/denali-icons-sprite.svg#denali"></use>
+  <use xlink:href="path/to/denali-icons.svg#denali"></use>
 </svg>
 ```
 
@@ -134,3 +127,6 @@ See the [Contributing](CONTRIBUTING.md) guide for details.
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md).
+
+[status-image]: https://cd.screwdriver.cd/pipelines/7070/badge
+[status-url]: https://cd.screwdriver.cd/pipelines/7070
