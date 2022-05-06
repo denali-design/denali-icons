@@ -55,7 +55,7 @@ or CDN
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@denali-design/icons/dist/font/denali-icons-font.css">
 ```
 
-Include an icon in your app or page with the following markup:
+Include an icon in your app or your page with the following markup:
 
 ```html
 <span class="d-icon d-pencil"></span>
