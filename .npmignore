@@ -3,3 +3,6 @@ examples
 svg
 node_modules
 screwdriver.yaml
+
+#override so svgs get published
+!dist/svg
