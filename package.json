@@ -7,7 +7,8 @@
     "font": "rm -rf dist/font && mkdir dist/font && fantasticon -o dist/font -n denali-icons-font -t woff2 -g css --selector .d-icon -p d svg",
     "json": "iconit -n denali-icons --json",
     "sprite": "iconit -n denali-icons --sprite",
-    "svg": "rm -rf dist/svg && mkdir dist/svg && cp -R svg dist"
+    "svg": "rm -rf dist/svg && mkdir dist/svg && cp -R svg dist",
+    "test": "echo SKIP"
   },
   "repository": {
     "type": "git",
